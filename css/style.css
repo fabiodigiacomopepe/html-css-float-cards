@@ -31,7 +31,7 @@ header h1 {
 /* regole sezione schede */
 .scheda {
     float: left;
-    width: 260px;
+    width: calc(100%/3 - 20px);
 }
 
 .container-schede {
