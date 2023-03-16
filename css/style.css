@@ -31,11 +31,13 @@ header h1 {
 /* regole sezione schede */
 .scheda {
     float: left;
-    width: 270px;
+    width: 260px;
 }
 
 .container-schede {
-    width: calc(100%/3);
+    /* width: calc(100%/3 - 90px); */
+    margin-bottom: 30px;
+    background-color: #E53170;
 }
 
 .container-schede::after {
