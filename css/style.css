@@ -27,3 +27,43 @@ header h1 {
     text-align: center;
     margin: 45px 0;
 }
+
+/* regole sezione schede */
+.scheda {
+    float: left;
+    width: 270px;
+}
+
+.container-schede {
+    width: calc(100%/3);
+}
+
+.container-schede::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.scheda {
+    background-color: #0F0E17;
+    margin-right: 30px;
+}
+
+.scheda img {
+    width: 75px;
+    vertical-align: middle;
+}
+
+.scheda .info {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 1.3;
+}
+
+.scheda .info a {
+    color: #019DDB;
+    text-decoration: none;
+}
