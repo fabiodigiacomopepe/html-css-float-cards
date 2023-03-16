@@ -35,7 +35,7 @@ header h1 {
 }
 
 .container-schede {
-    width: calc(100% - 34px);
+    /* width: calc(100% - 34px); */
     margin-bottom: 30px;
     background-color: #E53170;
 }
