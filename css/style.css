@@ -35,7 +35,7 @@ header h1 {
 }
 
 .container-schede {
-    /* width: calc(100%/3 - 90px); */
+    width: calc(100% - 34px);
     margin-bottom: 30px;
     background-color: #E53170;
 }
@@ -69,4 +69,8 @@ header h1 {
 .scheda .info a {
     color: #019DDB;
     text-decoration: none;
+}
+
+.last {
+    margin-right: 0;
 }
