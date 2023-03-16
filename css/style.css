@@ -29,26 +29,21 @@ header h1 {
 }
 
 /* regole sezione schede */
+.container-schede {
+    margin-bottom: 30px;
+}
+
 .scheda {
     float: left;
     width: calc(100%/3 - 20px);
-}
-
-.container-schede {
-    /* width: calc(100% - 34px); */
-    margin-bottom: 30px;
-    background-color: #E53170;
+    background-color: #0F0E17;
+    margin-right: 30px;
 }
 
 .container-schede::after {
     clear: both;
     display: table;
     content: "";
-}
-
-.scheda {
-    background-color: #0F0E17;
-    margin-right: 30px;
 }
 
 .scheda img {
