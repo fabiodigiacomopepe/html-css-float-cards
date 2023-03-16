@@ -21,3 +21,9 @@ header h1 {
     color: #E53170;
     font-weight: bold;
 }
+
+/* regole paragrafo centrale */
+.paragraph p {
+    text-align: center;
+    margin: 45px 0;
+}
